@@ -1,0 +1,190 @@
+*{
+    padding:0;
+    margin:0;
+ }
+body {
+        background-image: url('/Users/patrickbutler/Desktop/Portfolio/img/Centrepital.jpg');
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        flex: auto;      
+
+        }
+        .intro-text .titles{
+            margin-top: 40px;
+            color:rgb(217, 250, 250);
+            font-family: "Sansita Swashed";
+            font-size: 18px;
+            padding-left: 20px;
+            align-items: right;
+            }
+    
+#folio5{
+        animation: 7s linear 1s infinite running slidein;
+        animation-name: slide in;
+        animation-timing-function: linear;
+        animation-delay: 3s;
+         color: rgb(235, 228, 233);
+         opacity: 65%;
+         font-weight: bolder;
+         display: inline-flex;
+         float: inline-end;
+         position: absolute;
+         bottom: 200px;
+         overflow: auto;
+            font-size: 500px ;
+            font-family: 'avenir';
+            text-size-adjust: auto;
+            -webkit-filter: blur(0px); 
+            -moz-filter: blur(0px); 
+            -ms-filter: blur(0px);
+            -webkit-animation: 1.8s linear 0s move_folio5;
+              animation: 4s linear 0s move_folio5;
+              transition-timing-function: ease-in-out;  -webkit-animation: zoomin 7.5s infinite;
+            }
+@-webkit-keyframes zoomin {
+              0% {
+                  -webkit-transform: scale(1);
+              }
+              100% {
+                  -webkit-transform: scale(9)}
+            
+    }             
+@-webkit-keyframes move_folio5 { from { margin-left: -40%; } to { margin-left: 100%; }  };
+@keyframes move_folio5 { from { margin-left: -20%; } to { margin-left: -100%}  };
+
+}
+.O{
+
+}
+
+.name{
+    color:beige;
+    font-family: "Sansita Swashed";
+    font-size: 30px;
+    padding-left: 20px; 
+    padding-top: 150px;
+        }
+    .intro-text p1{
+        margin-top: 90px;
+        padding-left: 25px;
+        color:rgb(228, 250, 250);
+        font-family: Arial;
+        font-size: 16px;
+        word-spacing: 1.5px;
+        line-height: 40px;
+        display: block;
+        display: flex;
+        
+     }
+    .intro-text p2{
+        margin-top: 100px;
+        padding-left: 25px;
+        color:rgb(228, 250, 250);
+        font-family: Arial;
+        font-size: 16px;
+        word-spacing: 1.5px;
+        line-height: 40px;
+        display: block;
+        display: flex;
+       
+         }
+     
+
+ .heading {
+    color: rgb(230, 250, 252);
+    opacity: 95%;
+    font-size: 80px; 
+    top: 150px;
+    right: 150px;
+    position: absolute;
+    image-resolution: 100%;
+    transition-property: font-size transform;
+  transition-timing-function: ease-in-out;
+  transition-duration: 3.5s;
+  text-size-adjust: auto;
+  -webkit-font-smoothing: subpixel-antialiased;
+  background-position-x: 50%;
+  background-position-y: 0%;
+  -webkit-animation: zoomin 7.5s 2;
+}
+
+@-webkit-keyframes zoomin {
+  0% {
+      -webkit-transform: scale(1);
+  }
+  100% {
+      -webkit-transform: scale(7.5)}
+}
+
+
+@media (max-width: 1000px) {
+    .heading { font-size: 80px; transition-delay: 1 s;}
+    
+}
+
+@media (max-width: 900px) {
+    .heading { font-size: 50px; }
+}
+
+@media (max-width: 600px) {
+    .heading { font-size: 30px; }
+}
+
+@media (max-width: 400px) {
+    .heading { font-size: 15px; }
+}
+
+@media (max-width: 200px) {
+    .heading { font-size: 10px; }
+}
+
+.time::after{
+        font: 850px system-ui;
+        font-weight: bolder;
+        opacity: 70%;
+        top: 2px;
+        right: 120px;
+        position: absolute;
+        color:rgb(197, 108, 7); 
+        content: counter(count);
+        animation: counter 1s linear alternate infinite;
+        counter-reset: count -10;
+}
+ @-webkit-keyframes counter {
+        0% {
+            counter-increment: count 0;
+    }
+    10% {
+        counter-increment: count 1;
+    }
+    20% {
+        counter-increment: count 3;
+        }
+     40% { 
+         counter-increment: count 4;
+    }
+    50%{
+        counter-increment: count 5;
+    }
+60%{
+    counter-increment: count ª•ººº§∞;
+}
+70% {
+    counter-increment: count 7;
+}
+80%{
+    counter-increment: count 8;
+}
+90%{
+    counter-increment: count …µ≤≤;
+}
+100%{
+    counter-increment: count 10;}
+}
+#libreria{
+    top: 1800px;
+    width: 1425px;
+}
+
