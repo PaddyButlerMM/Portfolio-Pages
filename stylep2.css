@@ -1,0 +1,138 @@
+*{
+    padding:0;
+    margin:0;
+ 
+}
+ .body {
+min-width: 110vw;
+   background-image: linear-gradient(180deg, #D64CD9 0%, #4C84D9 99.78%, rgba(214, 76, 217, 0) 100%);
+   padding:0px;
+   margin-top: 0px;
+   overflow: hidden;
+   background-repeat: no-repeat;
+   position:absolute;
+   }
+  #press{
+    height: clamp(150px, 6vw, 230px);
+    width:auto;
+    margin-left: 800px;
+    position: absolute;
+    top: 1200px;
+  }
+  
+  .image1{
+    width: 100%;
+    margin-top: 200px;
+    right: 450px;
+    position:absolute;
+    background-repeat: no-repeat;
+    filter:brightness(25%);
+
+  }
+
+.text {
+  font-style: arial italic; color: #f1f3f7;
+  font-size: clamp(60px, 1.5vw, 100px);
+  margin-top: 135px;
+ margin-left: 800px;
+ top: 150px;
+ right: 120px;
+ position: relative;
+ transition-property: font-size transform;
+transition-timing-function: ease-in-out;
+transition-duration: 3.5s;
+background-position-x: 50%;
+background-position-y: 0%;
+
+}
+@media (max-width: 1200px) {
+ .text { font-size: 80px; transition-delay: 1 s;}
+ 
+}
+
+@media (max-width: 900px) {
+ .text { font-size: 50px; }
+}
+
+@media (max-width: 600px) {
+ .text { font-size: 40px; }
+}
+
+@media (max-width: 400px) {
+  .text { font-size: 40px; }
+ }
+ 
+ @media (max-width: 200px) {
+  .text { font-size: 40px; }
+ }
+
+@media (max-width: 400px) {
+  .text { font-size: 40px; }
+ }
+ 
+ @media (max-width: 200px) {
+  .text { font-size: 40px; }
+ }
+
+
+  #bib {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  #bib {
+    position: fixed; 
+    top: 10%; 
+    left: -5%; 
+    width: 130%; 
+    height: 40%;
+  }
+  #bib img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+  #solo{
+    height: 100vh;
+    width: 200rem;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    position: center;
+  }
+    .a {
+      background-image: url(IMG/Curate.png);
+      transition: background-image .5s;
+
+      } 
+    
+    .a:hover{
+      background-image: url(IMG/Curate1.png);
+    }
+
+  
+   
+   
+   
+   
+   
+   
+   
+
+    
+
+
+
+
+
+
+    
