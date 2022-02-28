@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style copy.css" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap" rel="stylesheet">
+    <title>SoulisS808</title>
+</head>
+
+<body>
+    <div class="intro-text .titles">
+        <div class="titles">
+            <h1>
+            <a href="www.nybooks.com/about/masthead" class="titles"><span class="titles">Copywriting |</span></a>
+            <a href="https://www.nybooks.com/about/masthead" class="titles"><span class="titles">Art Direction |</span></a>
+                <a href="https://www.nybooks.com/about/masthead" class="titles"><span class="titles">Web Branding</span></a>
+                </a>
+                </h1>
+        </div>
+    </div>
+        <div class="name">
+            <h2>
+                <span class="name">Paddy Butler</span>
+            </h2>
+        </div>
+
+    </div>
+    <div class="text">
+        <div class="intro-text">
+            <p1>
+                In a world where digital migration has markedly intensified, Paddy<br>
+                Butler, has sought to expand his creative practice by embracing <br>
+                the latest in web development sophistication. <br>
+            </p1>
+
+            <p2>
+                This includes professional utilisation of html, css and Javascript to<br>
+                realise client projects with enhanced refinement. These essential</br>
+                craft tools are uniquely integrated to work in tandam with various</br>
+                visual design-based platforms such as Photoshop, Illustrator and</br>
+                Indesign to optimise operational concepts from inception right thro-</br>
+                ugh to UX and final product launch. <br>
+            </p2>
+        </div>
+    </div>
+    </div>
+
+    </div>
+    <div class="transbox">
+        <canvas>
+            <canvas id="transbox">
+    </div>
+
+    </div>
+
+    <div id="folio">
+        <div id="folio1">F</div>
+        <div id="folio2">O</div>
+        <div id="folio3">L</div>
+        <div id="folio4">I</div>
+        <div id="folio5">O</div>
+
+    </div>
+
+    <div class="heading">
+        <h1 style="font-family:'Sansita Swashed'">Portfolio</h1>
+    </div>
+    </div>
+    </div>
+    <div class="time">
+        <div id="after">
+            <div>
+            </div>
+            <div class="time2">
+                <div id="after2">
+                </div>
+
+
+
+
+
+
+</body>
+
+</html>
